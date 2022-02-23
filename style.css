@@ -1,0 +1,456 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.comparision a img{
+   border: 1px solid rgba(0, 0, 0, 0.507);
+   height: 320px;
+   width:"680px";
+   margin: 10%;
+}
+.comparision pre{
+    padding: 10px 0px;
+    margin-left: 365px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold; 
+    padding-bottom: 10px;
+    
+}
+.anything{
+    margin-left: 575px;
+}
+.logo{
+    height: 100px;
+}
+nav a   {
+    font-size: 23px;
+    display: flex;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: gray;
+}
+nav li a{
+  opacity: 0.8; 
+  color: white;
+}
+nav li a.active{
+  opacity: 1.4;
+}
+nav li a:hover{
+  color: white;
+  text-decoration: none;
+  opacity: 1.4;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("Images/backkkk.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+/* Make the image fully responsive */
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+      }
+    .img-box:hover{
+        box-shadow: 0 3px 11px rgba(14, 15, 18, 1);
+        transition: 1s;
+        cursor: pointer;
+        opacity: .7;
+    }  
+
+    section.contact-form {
+      box-shadow: 0 4px 12px rgb(234, 255, 255);
+      margin-left: 27px;
+      margin-right: 27px;
+      border-radius: 6px;
+  }
+  button.text-center.abt-btn {
+    margin-top: 29px;
+    margin-left: 241px;
+    padding: 12px 15px 12px 15px;
+    border-radius: 5px;
+    background-color: #64cbfa;
+    color: white;
+    border: 1.5px solid #64cbfa;
+	  box-shadow:0 3px 12px rgba(14,15,18,0.4);
+}
+
+button.text-center.abt-btn:hover {
+	color:#64cbfa;
+	background-color:white;
+	border:1.5px solid white;
+	transition:.5s
+}
+input[type="submit"] {
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 80px;
+    background-color: #64cbfa;
+    border: 1.5px solid #64cbfa;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 5px 20px rgba(14,15,18,.2);
+    margin-right: 5px;
+}
+input[type="reset"] {
+    padding: 10px 27px 10px 27px;
+    padding-top: 10px;
+    margin-top: 25px;
+    background-color: #64cbfa;
+    border: 1.5px solid #64cbfa;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 5px 20px rgba(14,15,18,.2);
+    margin-right: 5px;
+}
+input[type="submit"]:hover {
+    color: #64CBF0;
+    background-color: white;
+    border: 1.5px solid white;
+    transition: .7s;
+}
+input[type="reset"]:hover {
+    color: #64CBF0;
+    background-color: white;
+    border: 1.5px solid white;
+    transition: .7s;
+}
+.btn-purchase{
+    background-color: #64cbfa;
+    border: 1.5px solid #64cbfa;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 5px 20px rgba(14,15,18,.2);
+    padding: 10px 20px 10px 20px;
+    margin-left: 40px;
+    font-weight: bold;  
+}
+.btn-purchase:hover{
+  color: white;
+  background-color: greenyellow;
+  border: 1.5px solid white;
+  transition: .7s;
+}
+.flex button svg :hover{
+  color: red;
+}
+.map-web{
+  max-width: 100%;
+  box-shadow: 0 4px 10px rgba(14,15,18,0.1);
+  border-radius: 5px;
+  float: left;
+}
+.map-web:hover{
+    box-shadow: 0 3px 11px darkblue;
+    transition: 1s;
+    cursor: pointer;
+    opacity: .7;
+}
+.car-img{
+  box-shadow: 0 4px 10px rgb(252, 255, 255);
+  border-radius: 5px;
+}
+.car-img:hover{
+    box-shadow: 0 3px 11px red  ;
+    transition: 1s;
+    cursor: pointer;
+}
+.car-img2{
+  box-shadow: 0 4px 10px rgb(252, 255, 255);
+  border-radius: 5px;
+}
+.car-img2:hover{
+    box-shadow: 0 3px 11px cyan  ;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.car-img3{
+  box-shadow: 0 4px 10px rgb(252, 255, 255);
+  border-radius: 5px;
+}
+.car-img3:hover{
+    box-shadow: 0 3px 11px gray  ;
+    transition: 1s;
+    cursor: pointer;
+}
+.brand-look {
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(252, 255, 255, 0.562);
+}
+.brand-look:hover{
+  
+  box-shadow: 0 3px 11px rgb(12, 12, 12)  ;
+  transition: 1s;
+}
+.discover-btn
+{
+  display: flex;
+  align-items: center;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 0 15px;
+  border: 3px solid #dfa938;
+  background-color: #d34242;
+  box-shadow: 5px 7px 20px #000;
+}  
+.discover-btn a{
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-right: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.discover-btn span{
+  color: #fff;
+  font-size: 45px;
+}
+.discover-btn3
+{
+  display: flex;
+  align-items: center;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 0 15px;
+  border: 3px solid #dfa938;
+  background-color: rgb(110, 110, 110);
+  box-shadow: 5px 7px 20px #000;
+}  
+.discover-btn3 span{
+  color: #fff;
+  font-size: 45px;
+}
+.discover-btn3 a{
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-right: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.discover-btn2
+{
+  display: flex;
+  align-items: center;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 0 15px;
+  border: 3px solid #dfa938;
+  background-color: darkblue;
+  box-shadow: 5px 7px 20px #000;
+}  
+.discover-btn2 a{
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-right: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.discover-btn2 span{
+  color: #fff;
+  font-size: 45px;
+}
+.btn3
+{
+  display: flex;
+  align-items: center;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 0 15px;
+  border: 3px solid #dfa938;
+  background-color: rgb(110, 110, 110);
+  box-shadow: 5px 7px 20px #000;
+}  
+.btn3 a{
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-right: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.btn3 span{
+  color: #fff;
+  font-size: 45px;
+}
+
+.sideview{
+  margin-left: 140%;
+  margin-top: -110% ;
+  box-shadow: 0 3px 11px lightblue  ;
+  transition: 1s;
+}
+
+.btn-purchase2{
+  background-color: red;
+  border: 1.5px solid  snow;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 5px 20px rgba(14,15,18,.2);
+  padding: 10px 20px 10px 20px;
+  margin-left: 40px;
+  font-weight: bold;  
+}
+.btn-purchase2:hover{
+color: white;
+background-color: #780000;
+border: 1.5px solid white;
+transition: .7s;
+}
+
+.btn-purchase3{
+  background-color: purple;
+  border: 1.5px solid  snow;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 5px 20px rgba(14,15,18,.2);
+  padding: 10px 20px 10px 20px;
+  margin-left: 40px;
+  font-weight: bold;  
+}
+.btn-purchase3:hover{
+color: white;
+background-color: #360052;
+border: 1.5px solid white;
+transition: .7s;
+}
+
+.btn-purchase4{
+  background-color: #00c09a;
+  border: 1.5px solid  snow;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 5px 20px rgba(14,15,18,.2);
+  padding: 10px 20px 10px 20px;
+  margin-left: 40px;
+  font-weight: bold;  
+}
+.btn-purchase4:hover{
+color: white;
+background-color: #208a00;
+border: 1.5px solid white;
+transition: .7s;
+}
+/* index */
+
+/* RESPONSIVE */
+
+ @media(max-width: 300px){ 
+      .btable {
+        width: 100%;
+      }
+    .btable h2{
+      width: 100%;
+    }
+    .btable table{
+      width: 100%;
+    }
+    .btable tr{
+      width: 100%;
+    }
+    .btable td{
+      width: 100%;
+    }
+    .btable a{
+      width: 100%;
+    }
+    .btable img{
+      width: 100%;
+    }    
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    .gauge{
+      width: 150%;
+      margin-left: -25%;
+    }
+   
+    td,  img {
+      width: 1%;
+    }
+    .warranty {
+      width: 500px;
+    }
+    .logo{
+      width: 180px;
+    }
+    .comparision {
+      width: 110%;
+    }
+    .comparision img{
+      width: 110%;
+      margin-left: 10%;
+    }
+    .btable{
+      width: 110%;
+    }
+    .btable h2{
+      font-size: 1rem;
+    }
+    .btn3 a{
+      font-size: 15px;
+    }
+    .btn3 {
+      margin-right: 26%;
+    }
+    .btn3 span{
+      font-size: 12px;
+    }
+
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      footer{
+    border-top: 1px solid black;
+}
+

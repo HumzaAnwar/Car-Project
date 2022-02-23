@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="Images/favicon.png">
+    <title>Auto World | Used and New Cars  </title>
+</head>
+
+<style>
+  table{
+    border-spacing: 15px;
+    margin-left: 16%;
+
+  }
+  table, tr, td {
+    border: 1px transparent black;
+    border-collapse: collapse;
+  }
+  tr, td{
+    padding: 60px;
+  }
+  .icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+  </style>
+<body>
+  <div class="bg">
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="index.html">
+                <img src="Images/looogo.png" class="logo" alt="">
+
+            </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            
+             <li style="list-style-type: none;"><a class="mr-5 " href="./Pages/home.html">Home</a></li>
+             <li style="list-style-type: none;"><a class="mr-5 " href="./Pages/carfinance.html">Car Loan</a></li>
+             <li style="list-style-type: none;"><a class="mr-5 " href="./0Pages/contact_us.html">Contact Us</a></li>
+
+            </nav>
+        </div>
+    </header>
+  </head>
+  <body>
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Images/slide1.jpg" alt="Los Angeles">
+        <div class="carousel-caption">
+          <!-- <h3>Los Angeles</h3>
+          <p>We had such a great time in LA!</p> -->
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="Images/slide5.jpg" alt="Chicago">
+        <div class="carousel-caption">
+          <!-- <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p> -->
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="Images/slide3.jpg" alt="New York">
+        <div class="carousel-caption">
+          <!-- <h3>New York</h3>
+          <p>We love the Big Apple!</p> -->
+        </div>   
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+</div> 
+ <!-- SOCAIL MEDIA  Sidebar -->
+ <div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="#" class="google"><i class="fa fa-google"></i></a> 
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+
+
+  <section class="text-gray-600 body-font" style="margin: 3%;">
+    <div class="container px-5 py-24 mx-auto" style="box-shadow: 0px  4px 12px black;">
+      <div class="flex flex-wrap -m-4" >
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full" style="box-shadow: 0px 4px 10px gray; margin: 4%;" >
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Images/img1.jpg">
+          </a>
+          <div class="mt-4">
+            <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1" style="font-size: 18px; color: black;">Honda Civic 2019</h2>
+            <h5 class="text-gray-900 title-font text-lg font-medium" style="color: rgb(85, 180, 56);">PKR 42 lacs</h5>
+            <p class="mt-1">Lahore</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full" style="box-shadow: 0px 4px 10px gray; margin: 4%;" >
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Images/img2.jpg">
+          </a>
+          <div class="mt-4">
+            <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1" style="font-size: 18px; color: black;">Suzuki Alto 2021</h2>
+            <h5 class="text-gray-900 title-font text-lg font-medium" style="color: rgb(85, 180, 56);">PKR 13.75 lacs
+            </h5>
+            <p class="mt-1">Quetta</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full" style="box-shadow: 0px 4px 10px gray; margin: 4%;">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Images/img3.jpg">
+          </a>
+          <div class="mt-4">
+            <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1" style="font-size: 18px; color: black;">Suzuki Cultus 2021</h2>
+            <h5 class="text-gray-900 title-font text-lg font-medium" style="color: rgb(85, 180, 56);">PKR 19.7 lacs</h5>
+            <p class="mt-1">Karachi</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full" style="box-shadow: 0px 4px 10px gray; margin: 4%;">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Images/img4.jpg">
+          </a>
+          <div class="mt-4">
+            <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1" style="font-size: 18px; color: black;">Honda City 2021</h2>
+            <h5 class="text-gray-900 title-font text-lg font-medium" style="color: rgb(85, 180, 56);">PKR 28.6 lacs</h5>
+            <p class="mt-1">Rawalpindi</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full" style="box-shadow: 0px 4px 10px gray; margin: 4%;">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Images/img5.jpg">
+          </a>
+          <div class="mt-4">
+            <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1" style="font-size: 18px; color: black;" >Changan Alsvin 2021</h2>
+            <h5 class="text-gray-900 title-font text-lg font-medium" style="color: rgb(85, 180, 56);">PKR 26.5 lacs</h5>
+            <p class="mt-1">Islamabad</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full" style="box-shadow: 0px 4px 10px gray; margin: 4%;">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Images/img6.jpg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1" style="font-size: 18px; color: black;">Suzuki Wagon R 2021 <h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium" style="color: rgb(85, 180, 56);">PKR 18.9 lacs</h2>
+            <p class="mt-1">Peshawar</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full" style="box-shadow: 0px 4px 10px gray; margin: 4%;">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Images/img7.jpg">
+          </a>
+          <div class="mt-4">
+            <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1" style="font-size: 18px; color: black;">Toyota Fortuner 2021</h2>
+            <h2 class="text-gray-900 title-font text-lg font-medium" style="color: rgb(85, 180, 56);">PKR 96.5 lacs</h2>
+            <p class="mt-1">Karachi</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full" style="box-shadow: 0px 4px 10px gray; margin: 4%;">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Images/img8.jpg">
+          </a>
+          <div class="mt-4">
+            <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1" style="font-size: 18px; color: black;">KIA Sportage</h2>
+            <h5 class="text-gray-900 title-font text-lg font-medium" style="color: rgb(85, 180, 56);">PKR 54.0 lacs</h5>
+            <p class="mt-1">Lahore</p>
+          </div>        
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full" style="box-shadow: 0px 4px 10px gray; margin: 4%;">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Images/img9.jpg">
+          </a>
+          <div class="mt-4">
+            <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1" style="font-size: 18px; color: black;">Honda Accord</h2>
+            <h2 class="text-gray-900 title-font text-lg font-medium" style="color: rgb(85, 180, 56);">PKR 120.0 lacs</h2>
+            <p class="mt-1">Karachi</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- BRAND TABLE -->
+
+  <section style="background-color: #f2f3f3; margin-top: 9%;" class="btable" >
+      <div>
+        <br><h2 style="color: black; text-align: left; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; padding: 10px; margin-left: 6%;">New Cars by Make</h2>
+        <table style="width: 60%; background-color: #f2f3f3;">
+          <tr>
+            <td class="brand-look"><a href="./Pages/hondamain.html"><img src="Images/brandlogo1.jpg" alt="logo" height="250px" width="150px" style="margin-left: 8%;"></a></td>
+            <td class="brand-look"><a href="./Pages/Fordmain.html"><img src="Images/brandlogo2.jpg" alt="logo" height="250px" width="150px" style="margin-left: 6%;"></a></td>
+            <td class="brand-look"><a href="./Pages/Suzukimain.html"><img src="Images/brandlogo3.jpg" alt="logo" height="250px" width="150px" style="margin-left: 6%;" ></a></td>
+          </tr>
+        </table><br><br>
+      </div>  
+  </section>
+  
+
+
+  <!-- COMPARISION -->
+
+  <section class="comparision">
+    <div class="container px-5 py-24 mx-auto flex flex-col">
+      <div class="lg:w-4/6 mx-auto">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="./Images/comparison1.png">
+        </div>
+        <div class="flex flex-col sm:flex-row mt-10">
+          <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8"> 
+          </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btn3" style="margin-left: 38%; margin-top: -12%;">
+      <a href="" style="font-weight: bold;">View Comparision</a><span><i class="fa fa-arrow-circle-o-right"></i></span>
+  </button>
+  <br><br><br><br><br><br><br><br>
+  </section>
+</body>
+<footer class="text-gray-600 body-font" style="background-color: #232225; border: 5px solid cadetblue;">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3" style="color: whitesmoke; font-size: 20px; font-weight: bold; text-align: left;">Cars by City</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">Cars in Lahore</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">Cars in Karachi</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; text-align: left; color: #999; font-style: oblique; font-weight: bolder;">Cars in Islamabad</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; text-align: left; color: #999; font-style: oblique; font-weight: bolder;" >Cars in Rawalpindi</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"  style="color: whitesmoke; font-size: 20px; font-weight: bold; text-align: start;">Cars by Category</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">Jeep</a>
+            </li>
+            <li>
+              <a  href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">Automatic Cars</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">660cc Cars</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">1000cc Cars</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3" style="color: whitesmoke; font-size: 20px; font-weight: bold; text-align: start;">Cars by Body Type</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">SUV</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">Sedan</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">Van</a>
+            </li>
+            <li>
+              <a href="#" aria-colspan="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">Double cabin</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3" style="color: whitesmoke; font-size: 20px; font-weight: bold; text-align: start;">Cars by Color</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">Black Cars</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">Grey Cars</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">White Cars</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">Red Cars</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3" style="color: whitesmoke; font-size: 20px; font-weight: bold; text-align: start;">Cars by Province</h2>
+          <nav class="list-none mb-10" style="text-align: start;">
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">Cars in Sindh</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">Cars in Punjab</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">Cars in Balochistan</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">Cars in KPK</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3" style="color: whitesmoke; font-size: 20px; font-weight: bold; text-align: start;">Explore Auto World</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 15px; color: #999; font-style: oblique; font-weight: bolder; text-align: left;">About AutoWorld</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">Our Products</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">FAQs</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800" style="font-size: 16px; color: #999; font-style: oblique; font-weight: bolder;">Contact Us</a>
+            </li>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-gray-200" style="border: 2px solid cadetblue;">
+      <div class="container px-5 py-8 flex flex-wrap mx-auto items-center">
+        <div class="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
+          <div class="relative sm:w-64 w-40 sm:mr-4 mr-2">
+            <label for="footer-field" class="leading-7 text-sm text-gray-600" style="color: white;">Subscribe to our Newsletter</label>
+            <input type="text" id="footer-field" name="footer-field" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:bg-transparent focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder="name@email.com" style="background-color: white;">
+          </div>
+          <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" style="background-color: yellowgreen;">Subscribe</button>
+          <p class="text-gray-500 text-sm md:ml-6 md:mt-0 mt-2 sm:text-left text-center">Auto World.com
+            <br class="lg:block hidden"><img src="Images/looogo.png " alt="logo" height="140px" width="140px" style="padding: px;"> 
+          </p>
+        </div>
+        <span class="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto" style="color: white;">
+          <a class="text-gray-500">
+            <button><svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg></button>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <button><svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+            </svg></button>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <button><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg></button>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <button><svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg></button>
+          </a>
+        </span>
+      </div>
+    </div>
+    <div class="bg-gray-100" style="background-color: #232225; text-align: right;">
+      <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row" >
+        <p class="text-gray-500 text-sm text-center sm:text-left" style=" color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Copyright © 2003 - AutoWorld (Pvt) Ltd. - All Rights Reserved. <br><br>
+          <a href="#" class="text-gray-600 ml-1" target="_blank" rel="noopener noreferrer" style="color: white;">Terms of Service |  Privacy Policy</a>
+        </p><br>
+        <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm"></span>
+      </div>
+    </div>
+  </footer>
+</html>
